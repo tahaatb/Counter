@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&family=Montserrat:wght@400;600&display=swap');
+* {
+    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)),url(images/pexels-roberto-nickson-2559941.jpg);
+    background-size: cover;
+    position: relative;
+    max-height: 100vh;
+    overflow: hidden;
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    flex-direction: column;
+}
+.container {
+    height: 450px;
+    width: 800px;
+    background-color: rgba(3, 175, 109, 0.137);
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: 10px solid rgba(4,9,30,0.8);
+    flex-direction: column;
+}
+.title {
+    color: white;
+    margin-bottom: 90px;
+    font-size: 40px;
+}
+.number-count {
+    font-size: 60px;
+    color: white;
+}
+.buttons {
+    display: flex;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+}
+.add:hover, .reset:hover {
+    outline: 5px solid rgba(14, 94, 148, 0.548);
+}
+.add, .reset {
+    height: 50px;
+    width: 120px;
+    background-color: rgba(136, 143, 140, 0.301);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding: 0 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
